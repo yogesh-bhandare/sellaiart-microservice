@@ -1,0 +1,8 @@
+upstash-redis
+python-decouple
+jupyter
+replicate
+pillow
+fastapi[standard]
+fastapi-limiter
+pillow-heif 
