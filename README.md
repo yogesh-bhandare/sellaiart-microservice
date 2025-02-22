@@ -9,7 +9,7 @@ The microservice leverages generative AI models to create personalized images, u
 ## Tech Stack
 
 - **[Python 3.13](https://github.com/python)** - Core programming language.
-- **[FastAPI](https://github.com/django/django)** (`pip install "FastAPI>=5.1,<5.2"`) - Web framework for building the microservice.
+- **[FastAPI](https://github.com/django/django)** (`pip install "FastAPI>=0.112.0,<0.113.0"`) - Web framework for building the microservice.
 - **[Upstash](https://upstash.com)** - Serverless Redis for caching, QStash for async endpoint scheduling, and rate limiting.
 - **[Replicate](https://replicate.com)** - Platform to train and run generative AI models (e.g., fine-tuned with your face).
 - **[Python Requests](https://github.com/psf/requests)** (`pip install requests`) - HTTP library for API interactions.
